@@ -19,15 +19,20 @@
 }
 
 body {
-  background: #fff;
+  background: url("background_2x.jpg");
   font-family: "Sukhumvit Set", "Thai Sans Neue Fixed", "Helvetica Neue", sans-serif;
   color: #fff;
   font-size: 24px;
+  -webkit-background-size: cover; /* For WebKit*/
+  -moz-background-size: cover;    /* Mozilla*/
+  -o-background-size: cover;      /* Opera*/
+  background-size: cover;         /* Generic*/
+  overflow: hidden;
 }
 
 .credits {
 
-  color:#333333;
+  color:#fff;
   font-size:5px;
   position: fixed;
   bottom: 0;
